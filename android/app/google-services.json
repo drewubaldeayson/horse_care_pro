@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "961816779998",
+    "project_id": "horse-care-pro",
+    "storage_bucket": "horse-care-pro.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961816779998:android:95f5704879c37e14aef64f",
+        "android_client_info": {
+          "package_name": "com.example.horse_care_pro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgZHG7MxHbvwEJEyI8BhR_hx23p5Pa2Rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

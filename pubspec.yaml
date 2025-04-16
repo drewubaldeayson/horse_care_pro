@@ -1,0 +1,53 @@
+name: horse_care_pro
+description: Comprehensive Horse Management App for MENA Region
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.0.0
+  
+  # Firebase Integration
+  firebase_core: ^2.4.0
+  firebase_auth: ^4.2.0
+  cloud_firestore: ^4.3.0
+  firebase_storage: ^11.0.0
+  firebase_analytics: ^10.0.0
+  
+  # Utilities
+  uuid: ^3.0.5
+  intl: ^0.19.0
+
+  # Authentication
+  google_sign_in: ^6.0.0
+
+  animated_text_kit: ^4.2.2
+
+  flutter_svg: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Testing and analysis
+  mockito: ^5.0.0
+  build_runner: ^2.1.2
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    #- assets/translations/
+    #- assets/icons/
+  
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Regular.ttf
